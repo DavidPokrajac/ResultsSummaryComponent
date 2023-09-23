@@ -13,36 +13,48 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="./styles/master.css" type="text/css" />
 </head>
 <body>
-  <main></main>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+  <main>
+    <div class="result">
+      <h4>Your Result</h4>
+      <span class="score-overall">
+        <span>76</span>
+        of 100
+      </span>
+      <span class="results-status">Great</span>
+      <p class="results-comment">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="result-summary">
+      <h4>Summary</h4>
+      <div class="reaction component">
+        <img src="./assets/images/icon-reaction.svg" />
+        <span class="component-text">Reaction</span>
+        <span class="component-grade"><strong>80</strong> / 100</span>
+      </div>
+      <div class="memory component">
+        <img src="./assets/images/icon-memory.svg" />
+        <span class="component-text">Memory</span>
+        <span class="component-grade"><strong>92</strong> / 100</span>
+      </div>
+      <div class="visual component">
+        <img src="./assets/images/icon-verbal.svg" />
+        <span class="component-text">Verbal</span>
+        <span class="component-grade"><strong>61</strong> / 100</span>
+      </div>
+      <div class="verbal component">
+        <img src="./assets/images/icon-visual.svg" />
+        <span class="component-text">Visual</span>
+        <span class="component-grade"><strong>72</strong> / 100</span>
+      </div>
+      <button>Continue</button>
+    </div>
+  </main>
   
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div>-->
 </body>
 </html>
