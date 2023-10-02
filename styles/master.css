@@ -59,18 +59,18 @@ main .result {
     padding: 2rem 2.5rem;
 }
 
-main .result h4,
-main .result-summary h4 {
+main .result h1,
+main .result-summary h1 {
     font-size: 1.25rem;
     margin-top: 0;
 }
 
-main .result h4 {
+main .result h1 {
     color: var(--light-lavender);
     text-align: center;
 }
 
-main .result-summary h4 {
+main .result-summary h1 {
     color: var(--dark-gray-blue);
 }
 
@@ -214,8 +214,8 @@ main .result-summary button:hover {
         padding-top: 1rem;
     }
 
-    main .result h4,
-    main .result-summary h4 {
+    main .result h1,
+    main .result-summary h1 {
         font-size: 1rem;
     }
 
